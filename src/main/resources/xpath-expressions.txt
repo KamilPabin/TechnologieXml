@@ -1,0 +1,8 @@
+1. //*[@name]
+2. //*[@id="searchedId"] v /root/object[@id="searchedId"]
+3. //*/extra/parent::*  v  /root/object/extra/parent::*
+4. (/root/object[not(@name)]/description[1])[text()]
+5. /root/object/description[2]
+6. /root/object[not(normalize-space())]
+7. //*/description/child::description
+8. /root/object[description/child::emphasis][not(extra/child::emphasis)]
