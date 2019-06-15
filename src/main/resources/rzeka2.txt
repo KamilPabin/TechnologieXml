@@ -1,0 +1,29 @@
+Zdanie: 
+Napisz zpytnie w jêzyku XQuery, które na podstawie dokumentu XML zgodnego z dokumentem 
+rzeki.dtd stworzy dokument, w którym dla ka¿dej rzeki, która nie jest niczyim dop³ywem, 
+zostan¹ utworzone listy lewych dop³ywów. W liscie znajdzie siê lista nazw lewych dop³ywów 
+oraz sumaryczna liczba ich kilometrów. Struktura dokumentu wynikowego bêdzie zgodna z poni¿szym DTD.
+
+
+<!ELEMENT bez_doplywow (RZEKA*)> 
+<!ELEMENT RZEKA (nazwa, doplywy lewe)> 
+<!ELEMENT doplywy_lewe (nazwa*, suma_km)> 
+
+
+<?xml version="1.0" encoding="UTF-8"?> 
+<bez_doplywow> 
+	<RZEKA nazwa="Wisla"> 
+		<doplywy_lewe>
+			<nazwa>Nida</nazwa> 
+			<nazwa>Pilica</nazwa> 
+			<suma_km>472</suma_km> 
+		</doplywy_lewe>
+	</RZEKA>
+	<RZEKA nazwa="Odra"> 
+		<doplywy_lewe>
+			<nazwa>Bysrzyca</nazwa> 
+			<nazwa>Nysa Klodzka</nazwa> 
+			<suma_km>277</suma_km> 
+		</doplywy_lewe>
+	</RZEKA>
+</bez_doplywow> 

@@ -1,0 +1,20 @@
+Napisz zapytanie XQuery, które dla pliku rzeka.xml wygenerujenowy plik o strukturze przedstawionej poniżej
+
+<!ELEMENT prawe_doplywy (RZEKA*)> 
+<!ELEMENT RZEKA (nazwa)> 
+<!ATTLIST RZEKA wpada_do PCDATA #REQUIRED> 
+
+
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE rzeki SYSTEM "rzeki.dtd"> 
+<prawe_doplywy> 
+	<RZEKA wpada_do="Wisla"> 
+		<nazwa>San</nazwa> 
+	</RZEKA>
+		<RZEKA wpada_do="Wisla"> 
+		<nazwa>Skawa</nazwa> 
+	</RZEKA>
+		<RZEKA wpada_do="Odra"> 
+		<nazwa>Widawa</nazwa> 
+	</RZEKA>
+</prawe_doplywy> 

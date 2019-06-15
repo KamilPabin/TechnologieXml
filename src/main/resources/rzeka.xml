@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE rzeki SYSTEM "rzeki.dtd"> 
+<rzeki> 
+	<rzeka km="854"> 
+		<nazwa>Odra</nazwa> 
+		<zrodlo>Gory Odrzanskie</zrodlo> 
+		<ujscie>Zalew Szczecinski</ujscie> 
+		<rzeka km="95" doplyw="lewy"> 
+			<nazwa>Bystrzyca</nazwa> 
+			<zrodlo>Gory Suche</zrodlo> 
+		</rzeka> 
+		<rzeka km="110" doplyw="prawy"> 
+			<nazwa>Widawa</nazwa> 
+		</rzeka> 
+		<rzeka km="182" doplyw="lewy"> 
+			<nazwa>Nysa Klodzka</nazwa> 
+			<zrodlo>Masyw Snieznika</zrodlo> 
+			<ujscie>Brzeg</ujscie> 
+		</rzeka> 
+	</rzeka> 
+	<rzeka km="1047"> 
+		<nazwa>Wisla</nazwa> 
+		<zrodlo>Barania Gora</zrodlo> 
+		<ujscie>Zatoka Gdanska</ujscie> 
+		<rzeka km="88" doplyw="prawy"> 
+			<nazwa>Sola</nazwa> 
+			<zrodlo>Rajcza</zrodlo> 
+		</rzeka> 
+		<rzeka km="96" doplyw="prawy"> 
+			<nazwa>Skawa</nazwa> 
+		</rzeka> 
+		<rzeka km="153" doplyw="lewy"> 
+			<nazwa>Nida</nazwa> 
+		</rzeka> 
+		<rzeka km="319" doplyw="lewy"> 
+			<nazwa>Pilica</nazwa> 
+			<zrodlo>Pilica</zrodlo> 
+		</rzeka> 
+		<rzeka km="443" doplyw="prawy"> 
+			<nazwa>San</nazwa> 
+			<zrodlo>Przelecz Uzocka</zrodlo> 
+			<ujscie>Dabrowka Pniowska</ujscie> 
+		</rzeka> 
+	</rzeka> 
+</rzeki> 
