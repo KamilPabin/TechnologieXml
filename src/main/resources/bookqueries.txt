@@ -1,0 +1,18 @@
+1. for $x in doc("bib.xml")/bib/book
+   return $x/author/last
+
+2. for $x in doc("bib.xml")/bib/book
+   where $x/title="Data on the Web"
+   return $x/author/first
+
+3. <prawe_doplywy> {
+   for $d in doc("mydoc.xml")/rzeki/rzeka/rzeka[@doplyw="prawy"]
+   return <rzeka wpada_do="{$d/parent::*/nazwa/text()}"> { <nazwa> { $d/nazwa/text() } </nazwa> } </rzeka>
+   }
+   </prawe_doplywy>
+
+4. <bez_doplywow> {
+   for $d in doc("mydoc.xml")/rzeki/rzeka[not(rzeka/nazwa/text()=parent::*/parent::*/nazwa/text())]
+   return <rzeka nazwa="{$d/nazwa/text()}"> {<doplywy_lewe>{$d/rzeka[@doplyw='lewy']/nazwa}</doplywy_lewe>, <suma_km> {sum($d/rzeka[@doplyw='lewy']/@km)} </suma_km>} </rzeka>
+   }
+   </bez_doplywow>
