@@ -1,0 +1,11 @@
+<!ELEMENT students (student)>
+
+        <!ELEMENT student (firstName, lastName, subjects)>
+        <!ELEMENT firstName (#PCDATA)>
+        <!ELEMENT lastName (#PCDATA)>
+
+        <!ELEMENT subjects (subject)>
+        <!ELEMENT subject (name, grade)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT grade (#PCDATA)>
+
