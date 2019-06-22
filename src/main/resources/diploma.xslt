@@ -72,6 +72,27 @@
     <xsl:template match="subjects">
         <div class="cover">
             <img src="back.jpg">back side</img>
+
+            <div class="behaviour">
+                <xsl:value-of select="./../behaviour/text()"/>
+            </div>
+
+            <div class="physics">
+                <xsl:value-of select="./subject[name/text()='physics']/grade/text()"/>
+            </div>
+            <div class="mathematics">
+                <xsl:value-of select="./subject[name/text()='mathematics']/grade/text()"/>
+            </div>
+            <div class="biology">
+                <xsl:value-of select="./subject[name/text()='biology']/grade/text()"/>
+            </div>
+            <div class="chemistry">
+                <xsl:value-of select="./subject[name/text()='chemistry']/grade/text()"/>
+            </div>
+            <div class="technology">
+                <xsl:value-of select="./subject[name/text()='technology']/grade/text()"/>
+            </div>
+
         </div>
     </xsl:template>
 

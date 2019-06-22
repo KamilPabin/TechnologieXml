@@ -27,7 +27,7 @@
                 <grade>5</grade>
             </subject>
         </subjects>
-        <behaviour>Wzorowe</behaviour>
+        <behaviour>Bardzo dobre</behaviour>
     </student>
     <student>
         <firstName>Adam</firstName>
@@ -54,7 +54,7 @@
                 <grade>5</grade>
             </subject>
         </subjects>
-        <behaviour>Wzorowe</behaviour>
+        <behaviour>Dobre</behaviour>
     </student>
     <student>
         <firstName>Maurycy</firstName>
@@ -81,7 +81,7 @@
                 <grade>5</grade>
             </subject>
         </subjects>
-        <behaviour>Wzorowe</behaviour>
+        <behaviour>Dobre</behaviour>
     </student>
     <student>
         <firstName>Joanna</firstName>

@@ -7,6 +7,12 @@
     z-index: 0;
 }
 
+.cover {
+    position: relative;
+    z-index: 0;
+
+}
+
 .name {
     position: absolute;
     text-align: center;
@@ -115,8 +121,74 @@
     font-style: oblique;
 }
 
-.cover {
-    position: relative;
-    z-index: -1;
+.behaviour {
+    position: absolute;
+    text-align: left;
+    left: 62%;
+    top: 10.5%;
+    z-index: 1;
+    transform: translate(-50%, 0%);
+    font-family: "Times New Roman", serif;
+    font-size: 30px;
+    font-style: oblique;
+}
 
+.physics {
+    position: absolute;
+    text-align: left;
+    left: 62%;
+    top: 38%;
+    z-index: 1;
+    transform: translate(-50%, 0%);
+    font-family: "Times New Roman", serif;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.mathematics {
+    position: absolute;
+    text-align: left;
+    left: 62%;
+    top: 40%;
+    z-index: 1;
+    transform: translate(-50%, 0%);
+    font-family: "Times New Roman", serif;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.biology {
+    position: absolute;
+    text-align: left;
+    left: 62%;
+    top: 34%;
+    z-index: 1;
+    transform: translate(-50%, 0%);
+    font-family: "Times New Roman", serif;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.chemistry {
+    position: absolute;
+    text-align: left;
+    left: 62%;
+    top: 36%;
+    z-index: 1;
+    transform: translate(-50%, 0%);
+    font-family: "Times New Roman", serif;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.technology {
+    position: absolute;
+    text-align: left;
+    left: 62%;
+    top: 42%;
+    z-index: 1;
+    transform: translate(-50%, 0%);
+    font-family: "Times New Roman", serif;
+    font-size: 30px;
+    font-style: oblique;
 }
