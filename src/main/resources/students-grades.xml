@@ -26,11 +26,8 @@
                 <name>technology</name>
                 <grade>5</grade>
             </subject>
-            <subject>
-                <name>behaviour</name>
-                <grade>6</grade>
-            </subject>
         </subjects>
+        <behaviour>Wzorowe</behaviour>
     </student>
     <student>
         <firstName>Adam</firstName>
@@ -56,11 +53,8 @@
                 <name>technology</name>
                 <grade>5</grade>
             </subject>
-            <subject>
-                <name>behaviour</name>
-                <grade>5</grade>
-            </subject>
         </subjects>
+        <behaviour>Wzorowe</behaviour>
     </student>
     <student>
         <firstName>Maurycy</firstName>
@@ -86,11 +80,8 @@
                 <name>technology</name>
                 <grade>5</grade>
             </subject>
-            <subject>
-                <name>behaviour</name>
-                <grade>3</grade>
-            </subject>
         </subjects>
+        <behaviour>Wzorowe</behaviour>
     </student>
     <student>
         <firstName>Joanna</firstName>
@@ -116,11 +107,8 @@
                 <name>technology</name>
                 <grade>6</grade>
             </subject>
-            <subject>
-                <name>behaviour</name>
-                <grade>6</grade>
-            </subject>
         </subjects>
+        <behaviour>Wzorowe</behaviour>
     </student>
     <student>
         <firstName>Karolina</firstName>
@@ -146,10 +134,7 @@
                 <name>technology</name>
                 <grade>5</grade>
             </subject>
-            <subject>
-                <name>behaviour</name>
-                <grade>6</grade>
-            </subject>
         </subjects>
+        <behaviour>Wzorowe</behaviour>
     </student>
 </students>
