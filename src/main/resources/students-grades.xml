@@ -5,136 +5,231 @@
     <student>
         <firstName>Jan</firstName>
         <lastName>Nowak</lastName>
+        <birthDate>02.04.1995</birthDate>
+        <birthPlace>Poznań</birthPlace>
+        <pesel>95040291857</pesel>
         <subjects>
             <subject>
                 <name>physics</name>
-                <grade>5</grade>
+                <grade>Bardzo dobry</grade>
             </subject>
             <subject>
                 <name>mathematics</name>
-                <grade>5</grade>
+                <grade>Bardzo dobry</grade>
             </subject>
             <subject>
                 <name>biology</name>
-                <grade>4</grade>
+                <grade>Dobry</grade>
             </subject>
             <subject>
                 <name>chemistry</name>
-                <grade>4</grade>
+                <grade>Dobry</grade>
             </subject>
             <subject>
                 <name>technology</name>
-                <grade>5</grade>
+                <grade>Bardzo dobry</grade>
+            </subject>
+            <subject>
+                <name>history</name>
+                <grade>Bardzo dobry</grade>
+            </subject>
+            <subject>
+                <name>sport</name>
+                <grade>Bardzo dobry</grade>
+            </subject>
+            <subject>
+                <name>geography</name>
+                <grade>Bardzo dobry</grade>
+            </subject>
+            <subject>
+                <name>behaviour</name>
+                <grade>Bardzo dobre</grade>
             </subject>
         </subjects>
-        <behaviour>Bardzo dobre</behaviour>
+        <mean>4.75</mean>
     </student>
     <student>
         <firstName>Adam</firstName>
         <lastName>Kowalski</lastName>
+        <birthDate>11.09.1995</birthDate>
+        <birthPlace>Poznań</birthPlace>
+        <pesel>95091112983</pesel>
         <subjects>
             <subject>
                 <name>physics</name>
-                <grade>4</grade>
+                <grade>Dobry</grade>
             </subject>
             <subject>
                 <name>mathematics</name>
-                <grade>4</grade>
+                <grade>Bardzo dobry</grade>
             </subject>
             <subject>
                 <name>biology</name>
-                <grade>3</grade>
+                <grade>Dobry</grade>
             </subject>
             <subject>
                 <name>chemistry</name>
-                <grade>4</grade>
+                <grade>Dobry</grade>
             </subject>
             <subject>
                 <name>technology</name>
-                <grade>5</grade>
+                <grade>Dobry</grade>
+            </subject>
+            <subject>
+                <name>history</name>
+                <grade>Dostateczny</grade>
+            </subject>
+            <subject>
+                <name>sport</name>
+                <grade>Celujący</grade>
+            </subject>
+            <subject>
+                <name>geography</name>
+                <grade>Dobry</grade>
+            </subject>
+            <subject>
+                <name>behaviour</name>
+                <grade>Bardzo dobre</grade>
             </subject>
         </subjects>
-        <behaviour>Dobre</behaviour>
+        <mean>4.25</mean>
     </student>
     <student>
         <firstName>Maurycy</firstName>
         <lastName>Wójcik</lastName>
+        <birthDate>24.07.1995</birthDate>
+        <birthPlace>Swarzędz</birthPlace>
+        <pesel>95072446873</pesel>
         <subjects>
             <subject>
                 <name>physics</name>
-                <grade>1</grade>
+                <grade>Dostateczny</grade>
             </subject>
             <subject>
                 <name>mathematics</name>
-                <grade>2</grade>
+                <grade>Dostateczny</grade>
             </subject>
             <subject>
                 <name>biology</name>
-                <grade>2</grade>
+                <grade>Dopuszczający</grade>
             </subject>
             <subject>
                 <name>chemistry</name>
-                <grade>2</grade>
+                <grade>Dopuszczający</grade>
             </subject>
             <subject>
                 <name>technology</name>
-                <grade>5</grade>
+                <grade>Dostateczny</grade>
+            </subject>
+            <subject>
+                <name>history</name>
+                <grade>Niedostateczny</grade>
+            </subject>
+            <subject>
+                <name>sport</name>
+                <grade>Bardzo dobry</grade>
+            </subject>
+            <subject>
+                <name>geography</name>
+                <grade>Dopuszczający</grade>
+            </subject>
+            <subject>
+                <name>behaviour</name>
+                <grade>Poprawne</grade>
             </subject>
         </subjects>
-        <behaviour>Dobre</behaviour>
+        <mean>2.625</mean>
     </student>
     <student>
         <firstName>Joanna</firstName>
         <lastName>Wiśniewska</lastName>
+        <birthDate>01.01.1995</birthDate>
+        <birthPlace>Oborniki</birthPlace>
+        <pesel>95010137104</pesel>
         <subjects>
             <subject>
                 <name>physics</name>
-                <grade>6</grade>
+                <grade>Bardzo dobry</grade>
             </subject>
             <subject>
                 <name>mathematics</name>
-                <grade>6</grade>
+                <grade>Bardzo dobry</grade>
             </subject>
             <subject>
                 <name>biology</name>
-                <grade>5</grade>
+                <grade>Celujący</grade>
             </subject>
             <subject>
                 <name>chemistry</name>
-                <grade>5</grade>
+                <grade>Celujący</grade>
             </subject>
             <subject>
                 <name>technology</name>
-                <grade>6</grade>
+                <grade>Bardzo dobry</grade>
+            </subject>
+            <subject>
+                <name>history</name>
+                <grade>Celujący</grade>
+            </subject>
+            <subject>
+                <name>sport</name>
+                <grade>Bardzo dobry</grade>
+            </subject>
+            <subject>
+                <name>geography</name>
+                <grade>Celujący</grade>
+            </subject>
+            <subject>
+                <name>behaviour</name>
+                <grade>Wzorowe</grade>
             </subject>
         </subjects>
-        <behaviour>Wzorowe</behaviour>
+        <mean>5.5</mean>
     </student>
     <student>
         <firstName>Karolina</firstName>
         <lastName>Kamińska</lastName>
+        <birthDate>18.11.1995</birthDate>
+        <birthPlace>Poznań</birthPlace>
+        <pesel>95111836294</pesel>
         <subjects>
             <subject>
                 <name>physics</name>
-                <grade>6</grade>
+                <grade>Celujący</grade>
             </subject>
             <subject>
                 <name>mathematics</name>
-                <grade>5</grade>
+                <grade>Celujący</grade>
             </subject>
             <subject>
                 <name>biology</name>
-                <grade>5</grade>
+                <grade>Bardzo dobry</grade>
             </subject>
             <subject>
                 <name>chemistry</name>
-                <grade>5</grade>
+                <grade>Celujący</grade>
             </subject>
             <subject>
                 <name>technology</name>
-                <grade>5</grade>
+                <grade>Bardzo dobry</grade>
+            </subject>
+            <subject>
+                <name>history</name>
+                <grade>Bardzo dobry</grade>
+            </subject>
+            <subject>
+                <name>sport</name>
+                <grade>Bardzo dobry</grade>
+            </subject>
+            <subject>
+                <name>geography</name>
+                <grade>Celujący</grade>
+            </subject>
+            <subject>
+                <name>behaviour</name>
+                <grade>Wzorowe</grade>
             </subject>
         </subjects>
-        <behaviour>Wzorowe</behaviour>
+        <mean>5.5</mean>
     </student>
 </students>

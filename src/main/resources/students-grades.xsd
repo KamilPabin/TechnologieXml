@@ -2,39 +2,45 @@
 <xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="students" type="studentsType"/>
   <xs:complexType name="subjectType">
-
     <xs:sequence>
-      <xs:element name="name"/>
-      <xs:element name="grade">
+      <xs:element type="xs:string" name="name"/>
+      <xs:element type="xs:string" name="grade">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="1"/>
-            <xs:enumeration value="2"/>
-            <xs:enumeration value="3"/>
-            <xs:enumeration value="4"/>
-            <xs:enumeration value="5"/>
-            <xs:enumeration value="6"/>
+            <xs:enumeration value="Niedostateczny"/>
+            <xs:enumeration value="Dopuszczający"/>
+            <xs:enumeration value="Dostateczny"/>
+            <xs:enumeration value="Dobry"/>
+            <xs:enumeration value="Bardzo dobry"/>
+            <xs:enumeration value="Celujący"/>
+
+            <xs:enumeration value="Naganne"/>
+            <xs:enumeration value="Niepoprawne"/>
+            <xs:enumeration value="Poprawne"/>
+            <xs:enumeration value="Dobre"/>
+            <xs:enumeration value="Bardzo dobre"/>
+            <xs:enumeration value="Wzorowe"/>
           </xs:restriction>
         </xs:simpleType>
       </xs:element>
     </xs:sequence>
   </xs:complexType>
-
   <xs:complexType name="subjectsType">
     <xs:sequence>
       <xs:element type="subjectType" name="subject" maxOccurs="unbounded" minOccurs="0"/>
     </xs:sequence>
   </xs:complexType>
-
   <xs:complexType name="studentType">
     <xs:sequence>
-      <xs:element name="firstName"/>
-      <xs:element name="lastName"/>
+      <xs:element type="xs:string" name="firstName"/>
+      <xs:element type="xs:string" name="lastName"/>
+      <xs:element type="xs:string" name="birthDate"/>
+      <xs:element type="xs:string" name="birthPlace"/>
+      <xs:element type="xs:string" name="pesel"/>
       <xs:element type="subjectsType" name="subjects"/>
-      <xs:element type="xs:string" name="behaviour"/>
+      <xs:element type="xs:string" name="mean"/>
     </xs:sequence>
   </xs:complexType>
-
   <xs:complexType name="studentsType">
     <xs:sequence>
       <xs:element type="studentType" name="student" maxOccurs="unbounded" minOccurs="0"/>

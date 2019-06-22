@@ -1,9 +1,12 @@
 <!ELEMENT students (student)*>
-        <!ELEMENT student (firstName|lastName|subjects|behaviour)*>
+        <!ELEMENT student (firstName|lastName|birthDate|birthPlace|pesel|subjects|mean)*>
         <!ELEMENT firstName (#PCDATA)>
         <!ELEMENT lastName (#PCDATA)>
+        <!ELEMENT birthDate (#PCDATA)>
+        <!ELEMENT birthPlace (#PCDATA)>
+        <!ELEMENT pesel (#PCDATA)>
         <!ELEMENT subjects (subject)*>
         <!ELEMENT subject (name|grade)*>
         <!ELEMENT name (#PCDATA)>
         <!ELEMENT grade (#PCDATA)>
-        <!ELEMENT behaviour (#PCDATA)>
+        <!ELEMENT mean (#PCDATA)>

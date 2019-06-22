@@ -24,13 +24,11 @@
 
     <xsl:template match="student">
         <div class="front">
-            <xsl:if test="sum(./subjects/subject/grade)
-                    div count(./subjects/subject/grade) &lt; 4.86">
+            <xsl:if test="./mean &lt; 4.86">
                 <img src="front.jpg">front side</img>
             </xsl:if>
 
-            <xsl:if test="sum(./subjects/subject/grade)
-                    div count(./subjects/subject/grade) &gt; 4.85">
+            <xsl:if test="./mean &gt; 4.85">
                 <img src="front1.jpg">front side</img>
             </xsl:if>
             <div class="name">
@@ -39,13 +37,13 @@
             </div>
 
             <div class="birthDate">
-                05.07.1995
+                <xsl:value-of select="./birthDate/text()"/>
             </div>
             <div class="birthPlace">
-                Poznań
+                <xsl:value-of select="./birthPlace/text()"/>
             </div>
             <div class="pesel">
-                95070539183
+                <xsl:value-of select="./pesel/text()"/>
             </div>
             <div class="school">
                 <div class="schoolName">
@@ -74,7 +72,7 @@
             <img src="back.jpg">back side</img>
 
             <div class="behaviour">
-                <xsl:value-of select="./../behaviour/text()"/>
+                <xsl:value-of select="./subject[name/text()='behaviour']/grade/text()"/>
             </div>
 
             <div class="physics">
@@ -91,6 +89,15 @@
             </div>
             <div class="technology">
                 <xsl:value-of select="./subject[name/text()='technology']/grade/text()"/>
+            </div>
+            <div class="history">
+                <xsl:value-of select="./subject[name/text()='history']/grade/text()"/>
+            </div>
+            <div class="sport">
+                <xsl:value-of select="./subject[name/text()='sport']/grade/text()"/>
+            </div>
+            <div class="geography">
+                <xsl:value-of select="./subject[name/text()='geography']/grade/text()"/>
             </div>
 
         </div>
