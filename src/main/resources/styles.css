@@ -1,9 +1,8 @@
-.front {
-    position: relative;
-    z-index: 0;
+.page {
+    position: absolute;
 }
 
-.back {
+.front {
     position: relative;
     z-index: 0;
 }
@@ -120,8 +119,4 @@
     position: absolute;
     z-index: -1;
 
-}
-
-.page {
-    position: absolute;
 }
