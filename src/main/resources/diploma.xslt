@@ -11,8 +11,10 @@
             </head>
             <body>
                 <div class="page">
-                    <xsl:apply-templates select="/students/student[1]"/>
-                    <xsl:apply-templates select="/students/student[1]/subjects"/>
+                    <xsl:for-each select="students/student">
+                        <xsl:apply-templates select="."/>
+                        <xsl:apply-templates select="./subjects"/>
+                    </xsl:for-each>
                 </div>
             </body>
         </html>
@@ -22,18 +24,18 @@
 
     <xsl:template match="student">
         <div class="front">
-            <xsl:if test="sum(/students/student[1]/subjects/subject/grade)
-                    div count(/students/student[1]/subjects/subject/grade) &lt; 4.86">
+            <xsl:if test="sum(./subjects/subject/grade)
+                    div count(./subjects/subject/grade) &lt; 4.86">
                 <img src="front.jpg">front side</img>
             </xsl:if>
 
-            <xsl:if test="sum(/students/student[1]/subjects/subject/grade)
-                    div count(/students/student[1]/subjects/subject/grade) &gt; 4.85">
+            <xsl:if test="sum(./subjects/subject/grade)
+                    div count(./subjects/subject/grade) &gt; 4.85">
                 <img src="front1.jpg">front side</img>
             </xsl:if>
             <div class="name">
-                <xsl:value-of select="/students/student[1]/firstName/text()"/>
-                <xsl:value-of select="/students/student[1]/lastName/text()"/>
+                <xsl:value-of select="./firstName/text()"/>
+                <xsl:value-of select="./lastName/text()"/>
             </div>
 
             <div class="birthDate">
